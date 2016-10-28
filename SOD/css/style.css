@@ -1,0 +1,598 @@
+/*
+  sod css file
+*/
+html,body
+{
+    height:100%;
+    width:100%;
+    background-color:#f7f4f4;
+}
+h2{
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+  letter-spacing: 2px;
+}
+h4{
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+  letter-spacing: 2px;
+
+}
+i{
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+li{
+    font-family: Helvetica, sans-serif;
+      color:#58595b;
+      list-style-type: none;
+}
+p{
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+}
+h3{
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+}
+h4{
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+  font-size: 16px;
+}
+h5{
+  font-family: Helvetica, sans-serif;
+  color:#FFF;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+.no-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-fluid,.row{
+  padding-left: 0;padding-right: 0;padding-top: 0;padding-bottom: 0;
+  margin-left: 0;margin-right: 0;margin-top: 0;margin-bottom: 0;
+}
+.sod-logo > .img-responsive {
+    margin: 0 auto;
+}
+/*
+main section styles
+*/
+#sod-wrapper{
+  height:100%;
+  width:100%;
+}
+#main-menu{
+  background-color: #f7f4f4;
+  height:auto;
+}
+#content-area{
+  height:auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/*
+  main menu styles
+*/
+.main-text{
+  margin-top: 20px;
+  margin-right: 30px ;
+  margin-left: 30px ;
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+}
+.menu-about{}
+.btn-secondary-outline{
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+.main-menu-links{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: -15px;
+}
+/* link */
+.nav-item{
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.nav > li >a{
+    color: #58595b;
+    -webkit-border-radius: 0 !important;
+       -moz-border-radius: 0 !important;
+            border-radius: 0 !important;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    color: #e6e6e6;
+    background-color:#a1a1a1;
+}
+.nav > li > .active > a,
+.nav > li > .active > a:hover,
+.nav > li > .active > a:focus {
+ }
+/* =================== department content area ============================*/
+#cont-header{
+  height:100px;
+  border-bottom: 1px solid #a7a7a8;
+}
+#cont-body{
+  height:calc(100% - 100px);
+}
+/*********************** main filter area *************/
+.main-filter{
+  padding-top: 50px;
+}
+.main-filter-bar{
+  min-height:80px;
+}
+.filter-text{
+  padding-top:20px;
+  border-bottom:1px solid grey;
+  padding-bottom: 10px;
+}
+.filter-desc{
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 16px;
+}
+.hm-container{
+  padding-top: 20px;
+}
+.hm-cont{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.bg-media{background-color: #d91c5c;}
+.bg-mdi{background-color: #90278e;}
+.hm-cont-box{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.hm-cont-title{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hm-cont-textbox{
+  margin-left:10px;
+  margin-right: 10px;
+  background-color: #fff;
+  padding: 10px;
+  height:130px;
+  font-size: 12px;
+}
+.hm-cont-img{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.hm-cont-link{
+  padding:5px;
+  background-color: #58595b;
+  color:#FFF;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.hm-cont-footer{
+  padding-right: 10px;
+}
+.cont-breadcrumbs{
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.cont-paperlist{
+  background-color: #fafafa;
+  height:auto;
+  padding:10px;
+  padding-top: 20px;
+}
+.cont-department{
+  padding-left: 20px;
+  padding-right: 0px;
+  height: auto;
+}
+.cont-paper-section{
+  padding: 8px;
+}
+.cont-paper{
+  background-color: #eceded;
+  min-height:320px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+.department-section{
+  background-color: #fafafa;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+/* PAPER SECTION */
+.paper-img{
+  width:inherit;
+  height:130px;
+  border:0px solid black;
+  margin-bottom:8px;
+}
+.paper-img > img{
+  width:100%;
+  height:100%;
+}
+.paper-header{
+  width: inherit;
+  height:35px;
+  border-bottom: 2px solid #ff697b;
+}
+.paper-logo{
+  width:40px;
+  float:left;
+  height:35px;
+}
+.paper-name{
+  width:auto;
+  height: 35px;
+  float:left;
+  color:#ff697b;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 100%;
+  padding-top: 2px;
+}
+.paper-para{
+    font-family: Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+    color:grey;
+}
+/*breadcrumbs*/
+.breadcrumb {padding-left: 0px;background-color:inherit; border: 0px; border-radius: 0px; display: block;}
+.breadcrumb li {font-size: 12px;}
+.breadcrumb a {color: #878787;}
+.breadcrumb a:hover {color: #000;}
+.breadcrumb>.active {color: #000;}
+.breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
+
+/*
+  Department starts
+*/
+.department-header{
+  min-height:100px;
+}
+.department-menu{
+  height:80px;
+}
+.department-logo-desc{
+  height: inherit;
+  background-color: #58595b;
+  color:white;
+  font-family: Helvetica, sans-serif;
+  padding-top: 26px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.department-logo-menu{
+  height: inherit;
+  background-color: #cccecf;
+  padding-top: 10px;
+}
+.department-header img{
+  margin: 0 auto;
+}
+.department-text-box{
+  height: auto;
+}
+.department-text-box li{color:#fff;}
+.department-text-para{
+  background-color: #eceded;
+  min-height:150px;
+  font-size: 14px;
+  padding: 15px;
+  padding-left: 25px;
+}
+ul.list-courses {
+ list-style-type: none;
+ padding-left: 0px;
+ }
+.department-text-courses{
+  padding-left: 25px;
+  color:#FFF;
+  font-family: Helvetica, sans-serif;
+  font-size:12px;
+}
+.department-text-courses-1{
+  min-height:120px;
+  background-color: #ffa1a1;
+}
+.department-text-courses-2{
+  min-height:120px;
+  background-color: #ff697b;
+}
+.department-text-courses-3{
+  min-height:120px;
+  background-color: #d91c5c;
+}
+/*========== news section ===================*/
+.news-section{
+  padding-bottom: 20px;
+}
+.news-img{
+  min-height: 110px;
+}
+/*======== set width and height for the head section of news.
+other res stages have to be edited *================*/
+.news-head{
+  height: auto;
+}
+.news-heading{
+  float:left;
+  width:calc(100% - 60px);
+  height: 60px;
+  padding-left: 10px;
+}
+.news-dep-logo{
+  width:60px;
+  float:right;
+  height: auto;
+}
+.news-menu{
+  min-height:70px;
+}
+.news-filter-btn{
+  height:50px;
+  padding-left: 4px;
+  padding-right:4px;
+}
+.news-btn-fix{
+}
+.news-filter-desc{
+  letter-spacing: 2px;
+  text-align: right;
+  position: relative;
+  margin-right: 30px;
+}
+.news-filter-desc-mob{
+  letter-spacing: 2px;
+  text-align: center;
+  margin-right: 30px;
+}
+.news-filter{
+  margin-top: 10px;
+  padding-left: 30px;
+}
+.news-info{
+  height: auto;
+  padding-left: 30px;
+}
+.news-dates{padding-top: 5px;}
+/** colours **/
+.colour-media {color:#d91c5c;}
+.colour-cc {color:#38c7c9;}
+.colour-ind {color:#de653a;}
+.colour-mdi {color:#872de0;}
+.colour-fyd {color:#1fa7e0;}
+.colour-gen {color:#414042;}
+/******* classes for colored borders **********/
+.news-dep-media{border-bottom:1px solid #d91c5c;}
+.news-dep-cc{border-bottom:1px solid #38c7c9;}
+.news-dep-ind{border-bottom:1px solid #de653a;}
+.news-dep-mdi{border-bottom:1px solid #414042;}
+.news-dep-fyd{border-bottom:1px solid #1fa7e0;}
+.news-dep-gen{border-bottom:1px solid #414042;}
+/******** clases for coloured headings ******/
+.news-dep-media h3{color:#d91c5c;}
+.news-dep-cc h3{color:#38c7c9;}
+.news-dep-ind h3{color:#de653a;}
+.news-dep-mdi h3{color:#414042;}
+.news-dep-fyd h3{color:#1fa7e0;}
+.news-dep-gen h3{color:#414042;}
+.news-body{
+  padding:10px;
+}
+
+/************** project *****************/
+.cont-project{
+  background-color: #fafafa;
+  height:auto;
+  padding:10px;
+  padding-top: 20px;
+}
+.project-img{
+  min-height: 100px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+.project-main{
+  height: auto;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-top: 20px;
+}
+.project-main-left{
+  width:160px;
+  float:left;
+  letter-spacing: 2px;
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+}
+.project-main-right{
+  width:calc(100% - 160px);
+  padding-bottom: 15px;
+  padding-right: 10px;
+  float:left;
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+}
+.project-title{
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 30px;
+}
+.project-more{
+  border-bottom: 1px dashed grey;
+}
+.project-more-img{padding-bottom: 5px;padding-bottom: 10px;}
+.project-more-text{padding-bottom: 10px;}
+.project-secondary-text{
+  margin-top: 20px;
+  border-left:1px dashed #58595b;
+  padding-left: 13px;
+  padding-bottom: 30px;
+}
+.project-secondary-img{padding-right: 10px;}
+.project-secondary-title{
+  letter-spacing: 2px;
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+  font: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.project-secondary-tags{
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+  font-size: 10px;
+}
+.project-secondary-link{
+  font-family: Helvetica, sans-serif;
+  color:#58595b;
+  font-size: 12px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px){
+    .sod-logo{
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #content-area{
+      background-color:#f7f4f4;
+    }
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px){
+    .sod-logo{
+      margin-top: 0px;
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+    #main-menu{
+      margin-bottom: 15px;
+    }
+    #content-area{
+      background-color:#f7f4f4;
+    }
+    .hm-cont-textbox{height:auto;}
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px){
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3dcdc+0,f3f0f0+52,e8e2e2+100 */
+    #content-area{
+      background: #e3dcdc; /* Old browsers */
+      background: -moz-linear-gradient(left,  #e3dcdc 0%, #f3f0f0 52%, #e8e2e2 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left,  #e3dcdc 0%,#f3f0f0 52%,#e8e2e2 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right,  #e3dcdc 0%,#f3f0f0 52%,#e8e2e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3dcdc', endColorstr='#e8e2e2',GradientType=1 ); /* IE6-9 */
+    }
+    .sod-logo{
+      margin-top: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    h3{
+      font-family: Helvetica, sans-serif;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+    .hm-cont-textbox{height:auto;}
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px){
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3dcdc+0,f3f0f0+52,e8e2e2+100 */
+    #main-menu{
+      margin-bottom: 0px;
+    }
+    #content-area{
+      height: 100%;
+      overflow: auto;
+      background: #e3dcdc; /* Old browsers */
+      background: -moz-linear-gradient(left,  #e3dcdc 0%, #f3f0f0 52%, #e8e2e2 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left,  #e3dcdc 0%,#f3f0f0 52%,#e8e2e2 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right,  #e3dcdc 0%,#f3f0f0 52%,#e8e2e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3dcdc', endColorstr='#e8e2e2',GradientType=1 ); /* IE6-9 */
+    }
+    .sod-logo{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+	}
+
+	/* Large Devices, Wide Screens 1451px */
+
+	@media only screen and (min-width : 1200px){
+    .col-lg-15 {
+          width: 20%;
+          float: left;
+      }
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3dcdc+0,f3f0f0+52,e8e2e2+100 */
+    #content-area{
+      height: 100%;
+      background: #e3dcdc; /* Old browsers */
+      background: -moz-linear-gradient(left,  #e3dcdc 0%, #f3f0f0 52%, #e8e2e2 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left,  #e3dcdc 0%,#f3f0f0 52%,#e8e2e2 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right,  #e3dcdc 0%,#f3f0f0 52%,#e8e2e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3dcdc', endColorstr='#e8e2e2',GradientType=1 ); /* IE6-9 */
+    }
+    #main-menu{
+      margin-bottom: 0px;
+    }
+    .sod-logo{
+      margin-top: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .hm-cont-textbox{height:128px;}
+	}
